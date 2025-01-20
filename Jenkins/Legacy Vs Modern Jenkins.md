@@ -1,3 +1,9 @@
+# Jenkins Pipeline for Java based application using Maven, SonarQube, Argo CD, Helm and Kubernetes
+
+![Screenshot 2023-03-28 at 9 38 09 PM](https://user-images.githubusercontent.com/43399466/228301952-abc02ca2-9942-4a67-8293-f76647b6f9d8.png)
+
+
+
 # Comparison of Legacy Jenkins and Modern Jenkins with Docker
 
 This document compares the traditional Jenkins architecture (Master and Worker Nodes) with the modern approach using Docker and containers.
@@ -57,4 +63,7 @@ A company leverages Docker to simplify CI/CD pipelines:
 ### Run Jenkins Master
 ```bash
 docker run -d -p 8080:8080 -p 50000:50000 --name jenkins-master jenkins/jenkins:lts
+
+
+
 
